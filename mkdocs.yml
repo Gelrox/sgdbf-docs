@@ -1,0 +1,63 @@
+site_name: Whitefront
+theme:
+  name: material
+  features: 
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+nav:
+  - Functional Specifications:
+    - Users: functional-specifications/users.md
+    - Products catalog: functional-specifications/products-catalog.md
+    - Prices source for anonymous Users: functional-specifications/prices-source-for-anonymous-users.md
+    - Several products with same Product ID: functional-specifications/several-products-with-same-product-id.md
+    - Add to cart permission: functional-specifications/add-to-cart-permission.md
+    - Cart: functional-specifications/cart.md
+    - Anonymous cart: functional-specifications/anonymous-cart.md
+    - Checkout: functional-specifications/checkout.md
+    - Sidebar menus: functional-specifications/sidebar-menus.md
+    - Errors management: functional-specifications/errors-management.md
+    - Design system: functional-specifications/design-system.md
+    - Templates: functional-specifications/templates.md
+    - Cockpit ATC: functional-specifications/cockpit-atc.md
+    - Schneider page: functional-specifications/schneider-page.md
+    - Mitsubishi URL generation: functional-specifications/mitsubishi-url-generation.md
+    - Mobile-related pages: functional-specifications/mobile-related-pages.md
+    - GDPR compliance on forms: functional-specifications/gdpr-compliance-on-forms.md
+    - Daikin third part application: functional-specifications/daikin-third-part-application.md
+    - Bulk add to Cart: functional-specifications/bulk-add-to-cart.md
+    - Exploded views module: functional-specifications/exploded-views-module.md
+    - SFIC auto-login: functional-specifications/sfic-auto-login.md
+    - Drupal form builder: functional-specifications/drupal-form-builder.md
+    - Content scheduling: functional-specifications/content-scheduling.md
+    - COVID-19 Features: functional-specifications/covid-19-features.md
+    - Emails sending management: functional-specifications/emails-sending-management.md
+    - Geolocalisation: functional-specifications/geolocalisation.md
+    - Meta tags: functional-specifications/meta-tags.md
+    - SEO: functional-specifications/seo.md
+    - Site map: functional-specifications/site-map.md
+    - Visibility block: functional-specifications/visibility-block.md
+    - Analytics - specific placeholders: functional-specifications/analytics-specific-placeholders.md
+    - Password security policy: functional-specifications/password-security-policy.md
+    - Settings overrides logs: functional-specifications/settings-overrides-logs.md
+    - Maintenance page: functional-specifications/maintenance-page.md
+  - Technical Specifications:
+    - Field Types: technical-specifications/field-types.md
+    - Text Formats: technical-specifications/text-formats.md
+    - Environment settings: technical-specifications/environment-settings.md
+    - Users: technical-specifications/users.md
+    - Menus: technical-specifications/menus.md
+    - Config Pages: technical-specifications/config-pages.md
+    - Content Types: technical-specifications/content-types.md
+    - Paragraph Types: technical-specifications/paragraph-types.md
+    - Taxonomy Vocabularies: technical-specifications/taxonomy-vocabularies.md
+    - ECK Entity Types: technical-specifications/eck-entity-types.md
+    - Custom Block Types Paragraphs: technical-specifications/custom-block-types-paragraphs.md
+    - Sitemap XML: technical-specifications/sitemap-xml.md
+    - Product detail page microdata: technical-specifications/product-detail-page-microdata.md
+    - Honeypot module: technical-specifications/honeypot-module.md
+    - Drupal admin Content menu: technical-specifications/drupal-admin-content-menu.md
+    - Drupal cache management: technical-specifications/drupal-cache-management.md
+    - Security - User tokens protection: technical-specifications/security-user-tokens-protection.md

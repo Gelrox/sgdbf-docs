@@ -1,0 +1,25 @@
+<h1>Users</h1>
+<h2>Users management</h2>
+<p>Users and their related information are sent to Drupal via dedicated services. When user logs in for the first time, it will create a corresponding User entity in Drupal. This User Drupal entity will not store any user information (first name, last name…) except User ID and role provided by service. 
+User Drupal entities are used to make sure all Drupal internal session management system / permissions system / related contributed modules work as expected and can be maintained in standard conditions.</p> 
+Business roles
+This section describes the different roles from a Business perspective. Drupal roles are described in the next section. Each role has its own specificities in terms of management / information display on front-end. There are several layers regarding roles :
+Anonymous users
+Logged in users
+Professional users
+Private person users
+
+General statements :
+
+All users can see prices - products and their prices shown depend on selected agency
+For each User role, adding products to Cart triggering comes from a dedicated web service
+
+VA (Visiteur Anonyme) : Anonymous User which didn’t select any specific agency. This is the most basic role. For such user, Products catalog shown is the one from Site default agency (since user did not select any specific agency yet). Prices on front-end are displayed with taxes (“TTC” label is used). VA can’t add products to cart (buttons Add to Cart will always redirect to Agencies Landing page). 
+
+VAR (Visiteur Anonyme Rattaché) : Anonymous User which did select a specific agency. As a result, Products catalog shown is the one from selected agency. Prices on front-end are displayed with taxes (“TTC” label is used). 
+
+VI Part (Visiteur Internet Particulier) : Logged in User who is a private person. Such User is linked to an agency (since he must select his agency on registration). Products catalog shown is the one from selected agency.  Prices on front-end are displayed with taxes (“TTC” label is used). 
+
+VI Pro (Visiteur Internet Professionnel) : Logged in User who is a Professional. Such User is linked to an agency (since he must select his agency on registration). Products catalog shown is the one from selected agency.  Prices on front-end are displayed without taxes (“HT” label is used).
+ 
+VI CLI (Visiteur Internet Client) : Logged in User who is a Professional. His company is already registered in SGDBF Invoicing system. Products catalog shown is the one from his default agency.  Prices on front-end are displayed without taxes (“HT” label is used).
